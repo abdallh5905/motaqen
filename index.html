@@ -628,108 +628,110 @@
     </div>
   </section>
 
-  <!-- Hotels (Slider) with more space between dots and cards -->
+  <!-- Hotels (Slider) with proper spacing between dots and cards -->
   <section id="hotels" class="py-20 bg-white w-full">
     <div class="max-w-7xl mx-auto px-6 text-center w-full">
       <h2 class="text-3xl md:text-4xl font-black text-[#001372] mb-12 fade-in">فنادق قريبة من الحرم</h2>
-      <div class="swiper mySwiper w-full">
-        <div class="swiper-wrapper w-full">
+      <div class="swiper-container relative pb-16"> <!-- Added padding-bottom -->
+        <div class="swiper mySwiper w-full">
+          <div class="swiper-wrapper w-full">
 
-          <div class="swiper-slide bg-white rounded-2xl shadow-md overflow-hidden">
-            <img src="https://www.besthotelinmecca.net/data/Imgs/OriginalPhoto/15437/1543750/1543750306/img-m-hotel-makkah-by-millennium-mecca-4.JPEG" class="h-56 w-full object-cover" alt="hotel 1">
-            <div class="p-5 text-start">
-              <h3 class="text-[#001372] font-bold text-lg mb-1">فندق إم هوتل مكة باي ميلينيوم</h3>
-              <p class="text-sm text-gray-600 mb-1">📍 2,710 متر من الحرم | ⭐ 5 نجوم</p>
-              <p class="text-sm text-gray-600 mb-2">شارع إبراهيم الخليل، مكة المكرمة</p>
-              <ul class="text-sm text-gray-700 space-y-1 mt-2">
-                <li><i class="fas fa-wifi text-[#ffb703] ml-1"></i> واي فاي مجاني</li>
-                <li><i class="fas fa-shuttle-van text-[#ffb703] ml-1"></i> خدمة نقل مجانية إلى الحرم</li>
-                <li><i class="fas fa-dumbbell text-[#ffb703] ml-1"></i> مركز للياقة البدنية</li>
-                <li><i class="fas fa-concierge-bell text-[#ffb703] ml-1"></i> مكتب استقبال 24 ساعة</li>
-              </ul>
-              <div class="mt-4 flex gap-2">
-                <a href="tel:0561685478" class="hotel-booking-btn flex-1 text-center">
-                  <i class="fas fa-phone"></i> حجز فوري
-                </a>
-                <a href="https://wa.me/966561685478" class="bg-[#001372] text-white px-4 py-2 rounded-lg font-semibold hover:scale-105 transition flex-1 text-center">
-                  <i class="fab fa-whatsapp"></i> استفسار
-                </a>
+            <div class="swiper-slide bg-white rounded-2xl shadow-md overflow-hidden">
+              <img src="https://www.besthotelinmecca.net/data/Imgs/OriginalPhoto/15437/1543750/1543750306/img-m-hotel-makkah-by-millennium-mecca-4.JPEG" class="h-56 w-full object-cover" alt="hotel 1">
+              <div class="p-5 text-start">
+                <h3 class="text-[#001372] font-bold text-lg mb-1">فندق إم هوتل مكة باي ميلينيوم</h3>
+                <p class="text-sm text-gray-600 mb-1">📍 2,710 متر من الحرم | ⭐ 5 نجوم</p>
+                <p class="text-sm text-gray-600 mb-2">شارع إبراهيم الخليل، مكة المكرمة</p>
+                <ul class="text-sm text-gray-700 space-y-1 mt-2">
+                  <li><i class="fas fa-wifi text-[#ffb703] ml-1"></i> واي فاي مجاني</li>
+                  <li><i class="fas fa-shuttle-van text-[#ffb703] ml-1"></i> خدمة نقل مجانية إلى الحرم</li>
+                  <li><i class="fas fa-dumbbell text-[#ffb703] ml-1"></i> مركز للياقة البدنية</li>
+                  <li><i class="fas fa-concierge-bell text-[#ffb703] ml-1"></i> مكتب استقبال 24 ساعة</li>
+                </ul>
+                <div class="mt-4 flex gap-2">
+                  <a href="tel:0561685478" class="hotel-booking-btn flex-1 text-center">
+                    <i class="fas fa-phone"></i> حجز فوري
+                  </a>
+                  <a href="https://wa.me/966561685478" class="bg-[#001372] text-white px-4 py-2 rounded-lg font-semibold hover:scale-105 transition flex-1 text-center">
+                    <i class="fab fa-whatsapp"></i> استفسار
+                  </a>
+                </div>
               </div>
             </div>
-          </div>
 
-          <div class="swiper-slide bg-white rounded-2xl shadow-md overflow-hidden">
-            <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/463246228.jpg?k=2e3c3a2267b3e5fbd085c604d8eb14149c86ddcf189569b81172fdeea73e71f0&o=" class="h-56 w-full object-cover" alt="hotel 2">
-            <div class="p-5 text-start">
-              <h3 class="text-[#001372] font-bold text-lg mb-1">فوكو مكة (إيه آي جيه هوتيل)</h3>
-              <p class="text-sm text-gray-600 mb-1">📍 1,500 متر من الحرم | ⭐ 5 نجوم</p>
-              <p class="text-sm text-gray-600 mb-2">شارع إبراهيم الخليل، مكة المكرمة</p>
-              <ul class="text-sm text-gray-700 space-y-1 mt-2">
-                <li><i class="fas fa-wifi text-[#ffb703] ml-1"></i> واي فاي مجاني</li>
-                <li><i class="fas fa-shuttle-van text-[#ffb703] ml-1"></i> خدمة نقل مجانية إلى الحرم</li>
-                <li><i class="fas fa-concierge-bell text-[#ffb703] ml-1"></i> خدمة كونسييرج</li>
-                <li><i class="fas fa-money-bill text-[#ffb703] ml-1"></i> صراف آلي</li>
-              </ul>
-              <div class="mt-4 flex gap-2">
-                <a href="tel:0561685478" class="hotel-booking-btn flex-1 text-center">
-                  <i class="fas fa-phone"></i> حجز فوري
-                </a>
-                <a href="https://wa.me/966561685478" class="bg-[#001372] text-white px-4 py-2 rounded-lg font-semibold hover:scale-105 transition flex-1 text-center">
-                  <i class="fab fa-whatsapp"></i> استفسار
-                </a>
+            <div class="swiper-slide bg-white rounded-2xl shadow-md overflow-hidden">
+              <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/463246228.jpg?k=2e3c3a2267b3e5fbd085c604d8eb14149c86ddcf189569b81172fdeea73e71f0&o=" class="h-56 w-full object-cover" alt="hotel 2">
+              <div class="p-5 text-start">
+                <h3 class="text-[#001372] font-bold text-lg mb-1">فوكو مكة (إيه آي جيه هوتيل)</h3>
+                <p class="text-sm text-gray-600 mb-1">📍 1,500 متر من الحرم | ⭐ 5 نجوم</p>
+                <p class="text-sm text-gray-600 mb-2">شارع إبراهيم الخليل، مكة المكرمة</p>
+                <ul class="text-sm text-gray-700 space-y-1 mt-2">
+                  <li><i class="fas fa-wifi text-[#ffb703] ml-1"></i> واي فاي مجاني</li>
+                  <li><i class="fas fa-shuttle-van text-[#ffb703] ml-1"></i> خدمة نقل مجانية إلى الحرم</li>
+                  <li><i class="fas fa-concierge-bell text-[#ffb703] ml-1"></i> خدمة كونسييرج</li>
+                  <li><i class="fas fa-money-bill text-[#ffb703] ml-1"></i> صراف آلي</li>
+                </ul>
+                <div class="mt-4 flex gap-2">
+                  <a href="tel:0561685478" class="hotel-booking-btn flex-1 text-center">
+                    <i class="fas fa-phone"></i> حجز فوري
+                  </a>
+                  <a href="https://wa.me/966561685478" class="bg-[#001372] text-white px-4 py-2 rounded-lg font-semibold hover:scale-105 transition flex-1 text-center">
+                    <i class="fab fa-whatsapp"></i> استفسار
+                  </a>
+                </div>
               </div>
             </div>
-          </div>
 
-          <div class="swiper-slide bg-white rounded-2xl shadow-md overflow-hidden">
-            <img src="https://lh3.googleusercontent.com/gps-cs-s/AC9h4no3Zt8NSocImgvMHd7dDgWQHmE8ihtBBsf3-qz4IZUYN_Xp7mSAR8zVydD0eBDrHnnVJkWQe08OFQZ8qsHr1hmIj57KmUSPyMBOmnFsa2KBmM_BDIJgLR8SB1Zu_SicHEd4uVzB=s1360-w1360-h1020-rw" class="h-56 w-full object-cover" alt="hotel 3">
-            <div class="p-5 text-start">
-              <h3 class="text-[#001372] font-bold text-lg mb-1">فندق بارك رويال</h3>
-              <p class="text-sm text-gray-600 mb-1">📍 1,400 متر من الحرم | ⭐ 3 نجوم</p>
-              <p class="text-sm text-gray-600 mb-2">شارع إبراهيم الخليل، مكة المكرمة</p>
-              <ul class="text-sm text-gray-700 space-y-1 mt-2">
-                <li><i class="fas fa-wifi text-[#ffb703] ml-1"></i> واي فاي مجاني</li>
-                <li><i class="fas fa-tv text-[#ffb703] ml-1"></i> تلفاز مع قنوات فضائية</li>
-                <li><i class="fas fa-fan text-[#ffb703] ml-1"></i> تكييف هواء</li>
-                <li><i class="fas fa-city text-[#ffb703] ml-1"></i> شرفة تطل على المدينة</li>
-              </ul>
-              <div class="mt-4 flex gap-2">
-                <a href="tel:0561685478" class="hotel-booking-btn flex-1 text-center">
-                  <i class="fas fa-phone"></i> حجز فوري
-                </a>
-                <a href="https://wa.me/966561685478" class="bg-[#001372] text-white px-4 py-2 rounded-lg font-semibold hover:scale-105 transition flex-1 text-center">
-                  <i class="fab fa-whatsapp"></i> استفسار
-                </a>
+            <div class="swiper-slide bg-white rounded-2xl shadow-md overflow-hidden">
+              <img src="https://lh3.googleusercontent.com/gps-cs-s/AC9h4no3Zt8NSocImgvMHd7dDgWQHmE8ihtBBsf3-qz4IZUYN_Xp7mSAR8zVydD0eBDrHnnVJkWQe08OFQZ8qsHr1hmIj57KmUSPyMBOmnFsa2KBmM_BDIJgLR8SB1Zu_SicHEd4uVzB=s1360-w1360-h1020-rw" class="h-56 w-full object-cover" alt="hotel 3">
+              <div class="p-5 text-start">
+                <h3 class="text-[#001372] font-bold text-lg mb-1">فندق بارك رويال</h3>
+                <p class="text-sm text-gray-600 mb-1">📍 1,400 متر من الحرم | ⭐ 3 نجوم</p>
+                <p class="text-sm text-gray-600 mb-2">شارع إبراهيم الخليل، مكة المكرمة</p>
+                <ul class="text-sm text-gray-700 space-y-1 mt-2">
+                  <li><i class="fas fa-wifi text-[#ffb703] ml-1"></i> واي فاي مجاني</li>
+                  <li><i class="fas fa-tv text-[#ffb703] ml-1"></i> تلفاز مع قنوات فضائية</li>
+                  <li><i class="fas fa-fan text-[#ffb703] ml-1"></i> تكييف هواء</li>
+                  <li><i class="fas fa-city text-[#ffb703] ml-1"></i> شرفة تطل على المدينة</li>
+                </ul>
+                <div class="mt-4 flex gap-2">
+                  <a href="tel:0561685478" class="hotel-booking-btn flex-1 text-center">
+                    <i class="fas fa-phone"></i> حجز فوري
+                  </a>
+                  <a href="https://wa.me/966561685478" class="bg-[#001372] text-white px-4 py-2 rounded-lg font-semibold hover:scale-105 transition flex-1 text-center">
+                    <i class="fab fa-whatsapp"></i> استفسار
+                  </a>
+                </div>
               </div>
             </div>
-          </div>
 
-          <div class="swiper-slide bg-white rounded-2xl shadow-md overflow-hidden">
-            <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/490718402.jpg?k=65e5e80d21b22c1e90e2e77b916f062313562512f048594de3e818ba0cf63756&o=" class="h-56 w-full object-cover" alt="hotel 4">
-            <div class="p-5 text-start">
-              <h3 class="text-[#001372] font-bold text-lg mb-1">فندق فلسطين مكة</h3>
-              <p class="text-sm text-gray-600 mb-1">📍 800 متر من الحرم | ⭐ 3 نجوم</p>
-              <p class="text-sm text-gray-600 mb-2">شارع إبراهيم الخليل، مكة المكرمة</p>
-              <ul class="text-sm text-gray-700 space-y-1 mt-2">
-                <li><i class="fas fa-wifi text-[#ffb703] ml-1"></i> واي فاي مجاني</li>
-                <li><i class="fas fa-fan text-[#ffb703] ml-1"></i> تكييف هواء</li>
-                <li><i class="fas fa-utensils text-[#ffb703] ml-1"></i> مطعم</li>
-                <li><i class="fas fa-broom text-[#ffb703] ml-1"></i> خدمة تنظيف يومية</li>
-              </ul>
-              <div class="mt-4 flex gap-2">
-                <a href="tel:0561685478" class="hotel-booking-btn flex-1 text-center">
-                  <i class="fas fa-phone"></i> حجز فوري
-                </a>
-                <a href="https://wa.me/966561685478" class="bg-[#001372] text-white px-4 py-2 rounded-lg font-semibold hover:scale-105 transition flex-1 text-center">
-                  <i class="fab fa-whatsapp"></i> استفسار
-                </a>
+            <div class="swiper-slide bg-white rounded-2xl shadow-md overflow-hidden">
+              <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/490718402.jpg?k=65e5e80d21b22c1e90e2e77b916f062313562512f048594de3e818ba0cf63756&o=" class="h-56 w-full object-cover" alt="hotel 4">
+              <div class="p-5 text-start">
+                <h3 class="text-[#001372] font-bold text-lg mb-1">فندق فلسطين مكة</h3>
+                <p class="text-sm text-gray-600 mb-1">📍 800 متر من الحرم | ⭐ 3 نجوم</p>
+                <p class="text-sm text-gray-600 mb-2">شارع إبراهيم الخليل، مكة المكرمة</p>
+                <ul class="text-sm text-gray-700 space-y-1 mt-2">
+                  <li><i class="fas fa-wifi text-[#ffb703] ml-1"></i> واي فاي مجاني</li>
+                  <li><i class="fas fa-fan text-[#ffb703] ml-1"></i> تكييف هواء</li>
+                  <li><i class="fas fa-utensils text-[#ffb703] ml-1"></i> مطعم</li>
+                  <li><i class="fas fa-broom text-[#ffb703] ml-1"></i> خدمة تنظيف يومية</li>
+                </ul>
+                <div class="mt-4 flex gap-2">
+                  <a href="tel:0561685478" class="hotel-booking-btn flex-1 text-center">
+                    <i class="fas fa-phone"></i> حجز فوري
+                  </a>
+                  <a href="https://wa.me/966561685478" class="bg-[#001372] text-white px-4 py-2 rounded-lg font-semibold hover:scale-105 transition flex-1 text-center">
+                    <i class="fab fa-whatsapp"></i> استفسار
+                  </a>
+                </div>
               </div>
             </div>
-          </div>
 
+          </div>
         </div>
-        <!-- Custom pagination dots with more space between dots and cards -->
-        <div class="swiper-pagination mt-20"></div> <!-- Increased from mt-6 to mt-10 -->
+        <!-- Custom pagination dots with proper positioning -->
+        <div class="swiper-pagination absolute bottom-0 left-0 right-0 mt-8"></div>
       </div>
     </div>
   </section>
